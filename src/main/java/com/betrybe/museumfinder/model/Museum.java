@@ -14,8 +14,8 @@ public class Museum {
   Coordinate coordinate;
   long legacyId;
 
-  public long getId() {
-    return id;
+  public Long getId() {
+    return id == 0 ? null : id;
   }
 
   public void setId(long id) {
