@@ -1,24 +1,24 @@
 package com.betrybe.museumfinder.model;
 
 /**
- * The class Museum.
+ * Model Museum.
  */
 public class Museum {
-  long id;
-  String name;
-  String description;
-  String address;
-  String collectionType;
-  String subject;
-  String url;
-  Coordinate coordinate;
-  long legacyId;
+  private Long id;
+  private String name;
+  private String description;
+  private String address;
+  private String collectionType;
+  private String subject;
+  private String url;
+  private Coordinate coordinate;
+  private Long legacyId;
 
   public Long getId() {
     return id == 0 ? null : id;
   }
 
-  public void setId(long id) {
+  public void setId(Long id) {
     this.id = id;
   }
 
@@ -74,7 +74,7 @@ public class Museum {
     return legacyId;
   }
 
-  public void setLegacyId(long legacyId) {
+  public void setLegacyId(Long legacyId) {
     this.legacyId = legacyId;
   }
 
