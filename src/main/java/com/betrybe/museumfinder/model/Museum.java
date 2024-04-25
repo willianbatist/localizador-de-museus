@@ -4,6 +4,7 @@ package com.betrybe.museumfinder.model;
  * Model Museum.
  */
 public class Museum {
+
   private Long id;
   private String name;
   private String description;
@@ -70,7 +71,7 @@ public class Museum {
     this.url = url;
   }
 
-  public long getLegacyId() {
+  public Long getLegacyId() {
     return legacyId;
   }
 

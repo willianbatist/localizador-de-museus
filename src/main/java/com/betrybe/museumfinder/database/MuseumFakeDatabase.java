@@ -24,7 +24,7 @@ public class MuseumFakeDatabase {
 
   private final Map<Long, Museum> museums;
 
-  MuseumFakeDatabase(MuseumLoader museumsLoader) {
+  public MuseumFakeDatabase(MuseumLoader museumsLoader) {
     List<Museum> museumsList = museumsLoader.fromClasspath("data/museums.json");
 
     for (int i = 0; i < museumsList.size(); i++) {
