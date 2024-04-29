@@ -24,6 +24,9 @@ public class MuseumFakeDatabase {
 
   private final Map<Long, Museum> museums;
 
+  /**
+   * Method MuseumFakeDatabase.
+   */
   public MuseumFakeDatabase(MuseumLoader museumsLoader) {
     List<Museum> museumsList = museumsLoader.fromClasspath("data/museums.json");
 
