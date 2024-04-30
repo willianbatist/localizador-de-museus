@@ -16,7 +16,7 @@ public class Museum {
   private Long legacyId;
 
   public Long getId() {
-    return id == 0 ? null : id;
+    return id;
   }
 
   public void setId(Long id) {
