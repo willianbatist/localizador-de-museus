@@ -5,7 +5,17 @@ package com.betrybe.museumfinder.exception;
  */
 public class InvalidCoordinateException extends RuntimeException {
 
+  public InvalidCoordinateException() {
+  }
+
   public InvalidCoordinateException(String message) {
     super(message);
+  }
+
+  /**
+   * The method getMessage.
+   */
+  public String getMessage(String s) {
+    return s;
   }
 }
