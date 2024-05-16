@@ -37,7 +37,7 @@ public class MuseumController {
   }
 
   /**
-   * The Get Closest Museum.
+   * The Get Closest Museum of class MuseumController.
    */
   @GetMapping("/closest")
   public ResponseEntity<Museum> getClosestMuseum(
