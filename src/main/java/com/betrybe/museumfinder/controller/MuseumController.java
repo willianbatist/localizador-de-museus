@@ -26,7 +26,7 @@ public class MuseumController {
   private MuseumServiceInterface museumService;
 
   /**
-   * The Post createMuseum.
+   * The Post createMuseum of class MuseumController.
    */
   @PostMapping
   public ResponseEntity<Museum> createMuseum(@RequestBody MuseumCreationDto museumCreationDto) {
