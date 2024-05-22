@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * CollectionType controller class.
  */
 @RestController
-
+@RequestMapping("/collections")
 public class CollectionTypeController {
 
   private final CollectionTypeService service;
