@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * The Controller MuseumController.
  */
-@RestController
+
 @RequestMapping(value = "/museums")
 public class MuseumController {
 
