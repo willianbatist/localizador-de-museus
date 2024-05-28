@@ -16,7 +16,7 @@ public class GeneralControllerAdvice {
   /**
    * The method handleInvalidCoordinateException.
    */
-
+  @ExceptionHandler(InvalidCoordinateException.class)
   public ResponseEntity<String> handleInvalidCoordinateException(
       InvalidCoordinateException e
   ) {
